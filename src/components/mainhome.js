@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from './map'
 
 const MainHome = () => {
     return ( 
@@ -276,7 +277,7 @@ const MainHome = () => {
                 </ul>
               </div>
               <div className="col-md">
-                <div id="map" />
+                <Map/>
               </div>
             </div>
           </div>
